@@ -133,7 +133,7 @@ header nav a {
   background-repeat: no-repeat;
 }
 #home {
-  background-image: url(../images/top.jpg);
+  background-image: url(../images/top.JPG);
   min-height: 80vh;
 }
 #home .page-title {
