@@ -221,6 +221,7 @@ a .content-box:hover {
 }
 .caption {
   margin-top: 32px;
+  text-align: left;
 }
 @media (max-width: 800px) {
   .caption  {
@@ -229,6 +230,31 @@ a .content-box:hover {
 }
 .date {
   color: gray;
+}
+.content-list {
+  margin: 16px 0;
+  padding: 16px 16px;
+  background: #ffe7ed;
+  border-radius: 10px;
+}
+.content-ref {
+  background: #eefaff;
+  border-radius: 10px;
+  padding: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+.btn {
+  padding: 16px 200px;
+  background: orange;
+  color: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0,0,0,1);
+  cursor:pointer;
+  transition: background .3s;
+}
+  .btn:hover {
+  opacity: 0.6;
 }
 
 /* ASIDE */
