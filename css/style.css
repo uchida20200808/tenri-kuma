@@ -197,6 +197,7 @@ iframe {
   width: 500px;
   max-width: 100%;
   min-height: 50vh;
+  margin: 16px 0;
 }
 .content-box {
   display: flex;
@@ -220,12 +221,13 @@ a .content-box:hover {
   height: 200px;
 }
 .caption {
-  margin-top: 32px;
+  margin: 16px 0;
+  margin-right: 8px;
   text-align: left;
 }
 @media (max-width: 800px) {
   .caption  {
-    margin-top: 8px;
+    margin: 8px 0;
   }
 }
 .date {
