@@ -255,6 +255,11 @@ a .content-box:hover {
   cursor:pointer;
   transition: background .3s;
 }
+@media (max-width: 800px) {
+  .btn {
+    padding: 16px 100px;
+  }
+}
   .btn:hover {
   opacity: 0.6;
 }
