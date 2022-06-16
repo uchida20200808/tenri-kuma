@@ -24,7 +24,8 @@ h1, h2, p, a {
 p + p,
 p + h2,
 p + h3,
-a + a {
+a + a,
+img + p {
   margin-top: 16px;
 }
 ul {
