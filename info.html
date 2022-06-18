@@ -10,6 +10,8 @@
     <title>アクセス</title>
     <link rel="icon" href="images/favicon.png">
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <meta name="description" content="天理教久万山分教会の公式ホームページです。地域の皆様、お困りの方や苦しみを抱えている方は天理教の信者問わず、どなたでも参拝いただけます。陽気ぐらしでみんなが助け合える世界になれるようにと日々願っています。">
     <meta name="keywords" content="天理教,愛媛県,久万山分教会,陽気ぐらし,月次祭">
@@ -41,10 +43,16 @@
           <img src="images/call.png" alt="天理教久万山分教会へ電話" class="call">
         </a>
       </div>
+
+      <!-- ハンバーガーメニュー -->
+      <div class="sp-menu">
+        <span class="material-icons" id="open">menu</span>
+      </div>
   
-      <!-- ナビメニュー -->
+     <!-- PC版メニュー -->
+     <div class="pc-menu">
       <nav>
-        <ul class="main-nav">
+        <ul>
           <li><a href="index.html">トップ</a></li>
           <li><a href="kaityou.html">挨拶</a></li>
           <li><a href="about.html">天理教</a></li>
@@ -52,7 +60,22 @@
           <li><a href="info.html">アクセス</a></li>
         </ul>
       </nav>
-    </header>
+    </div>
+  </header>
+
+  <!-- ハンバーガーメニューの内容 -->
+  <div class="overlay">
+    <span class="material-icons" id="close">close</span>
+    <nav>
+      <ul>
+        <li><a href="index.html">トップ</a></li>
+        <li><a href="kaityou.html">挨拶</a></li>
+        <li><a href="about.html">天理教</a></li>
+        <li><a href="action.html">教え</a></li>
+        <li><a href="info.html">アクセス</a></li>
+      </ul>
+    </nav>
+  </div>
   
     <!-- トップエリア -->
     <div id="eye-catch" class="big-bg">
@@ -67,7 +90,8 @@
           <h2 class="h2-title">天理教久万山分教会</h2>
           <p>住所：愛媛県上浮穴郡久万高原町久万98<br>
           電話番号：0892-21-0517<br>
-          営業時間：6:30～18:30（月～日）</p>
+          営業時間：6:30～18:30（月～日）<br>
+          祭典日：17日</p>
         </div>
         <div class="location-map">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.055335944876!2d132.90112051468816!3d33.65572804596957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354fc0f89accdcf9%3A0xdc073a515651ed47!2z5aSp55CG5pWZ5LmF5LiH5bGx5YiG5pWZ5Lya!5e0!3m2!1sja!2sjp!4v1653806378692!5m2!1sja!2sjp" width="800" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -96,6 +120,8 @@
       <p>powered by <a href="https://uchida20200808.github.io/" class="content-link">内田裕之</a></p>
     </div>
   </footer>
+
+  <script src="js/main.js"></script>
   
 </body>
 </html>

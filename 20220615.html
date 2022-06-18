@@ -10,6 +10,8 @@
     <title>転職を繰り返す人の心理と対処方法【天理教の教え】</title>
     <link rel="icon" href="images/favicon.png">
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <meta name="description" content="こんな悩みを抱えていませんか？転職を何度も繰り返してしまう。仕事の評価が悪かったり、人間関係がうまくいかない。私にはもっと向いている仕事があるといつも思う。この記事ではそんな悩みを解決します。">
     <meta name="keywords" content="天理教,教え,転職,繰り返す,心理">
@@ -42,9 +44,30 @@
         </a>
       </div>
   
-      <!-- ナビメニュー -->
+      <!-- ハンバーガーメニュー -->
+      <div class="sp-menu">
+        <span class="material-icons" id="open">menu</span>
+      </div>
+  
+      <!-- PC版メニュー -->
+      <div class="pc-menu">
+        <nav>
+          <ul>
+            <li><a href="index.html">トップ</a></li>
+            <li><a href="kaityou.html">挨拶</a></li>
+            <li><a href="about.html">天理教</a></li>
+            <li><a href="action.html">教え</a></li>
+            <li><a href="info.html">アクセス</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ハンバーガーメニューの内容 -->
+    <div class="overlay">
+      <span class="material-icons" id="close">close</span>
       <nav>
-        <ul class="main-nav">
+        <ul>
           <li><a href="index.html">トップ</a></li>
           <li><a href="kaityou.html">挨拶</a></li>
           <li><a href="about.html">天理教</a></li>
@@ -52,7 +75,7 @@
           <li><a href="info.html">アクセス</a></li>
         </ul>
       </nav>
-    </header>
+    </div>
   
     <!-- トップエリア -->
     <div id="eye-catch" class="big-bg">
@@ -191,6 +214,7 @@
       <p>powered by <a href="https://uchida20200808.github.io/" class="content-link">内田裕之</a></p>
     </div>
   </footer>
-  
+
+  <script src="js/main.js"></script>
 </body>
 </html>
