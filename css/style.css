@@ -271,7 +271,7 @@ article {
   border: solid rgba(150,46,255,0.8);
   border-radius: 8px;
   margin: 16px auto;
-  padding: 8px 16px;
+  padding: 8px 48px;
   max-width: 600px;
 }
 .content-index p {
