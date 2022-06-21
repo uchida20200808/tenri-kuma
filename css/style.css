@@ -371,7 +371,7 @@ a .content-box:hover {
 }
 @media (max-width: 800px) {
   .btn {
-    padding: 16px 100px;
+    padding: 16px 16px;
   }
 }
   .btn:hover {
