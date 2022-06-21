@@ -257,6 +257,33 @@ article {
     width: 100%;
   }
 }
+/* 導入文 */
+.content-intro {
+  background: rgba(150,46,255,0.3);
+  margin: 16px 0;
+  padding: 16px 8px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+/* 目次部分 */
+.content-index {
+  background: rgba(150,46,255,0.1);
+  border: solid rgba(150,46,255,0.8);
+  border-radius: 8px;
+  margin: 16px auto;
+  padding: 8px 16px;
+  max-width: 600px;
+}
+.content-index p {
+  text-align: center;
+}
+/* 文字の強調 */
+main span {
+  color: #ff0000;
+  font-weight: bold;
+  background: linear-gradient(transparent 60%, #ff6 60%);
+}
+/* 見出しの装飾 */
 .h2-title {
   font-size: 1.375rem;
   padding: 8px 8px;
@@ -274,10 +301,12 @@ article {
   color: white;
   border-radius: 10px;
 }
+/* リンクの装飾 */
 .content-link {
   text-decoration: underline;
   color: #0099ff;
 }
+/* 動画の表示サイズ */
 iframe {
   width: 500px;
   max-width: 100%;
@@ -365,7 +394,8 @@ aside {
 footer {
   background: #5e17eb;
 }
-footer p,a {
+footer p,
+footer a {
   color: white;
   text-align: center;
 }
