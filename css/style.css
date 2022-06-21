@@ -361,7 +361,7 @@ a .content-box:hover {
   font-style: italic;
 }
 .btn {
-  padding: 16px 200px;
+  padding: 16px 20%;
   background: orange;
   color: white;
   border-radius: 4px;
@@ -371,7 +371,7 @@ a .content-box:hover {
 }
 @media (max-width: 800px) {
   .btn {
-    padding: 16px 16px;
+    padding: 16px 4%;
   }
 }
   .btn:hover {
