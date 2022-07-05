@@ -33,6 +33,7 @@ ul {
 }
 a:hover {
   opacity: 0.8;
+  text-decoration: underline;
 }
 
 /* HEADER */
@@ -257,6 +258,23 @@ article {
     width: 100%;
   }
 }
+
+/* ぱんくずリスト */
+.bread-road p {
+  font-size: 0.7rem;
+  color: gray;
+  margin-top: 16px;
+}
+.bread-road a {
+  color: gray;
+}
+
+/* 日付 */
+.date {
+  color: gray;
+  font-size: 0.7rem;
+}
+
 /* 導入文 */
 .content-intro {
   background: rgba(150,46,255,0.3);
@@ -279,7 +297,7 @@ article {
 }
 /* 文字の強調 */
 main span {
-  color: #ff0000;
+  /* color: #ff0000; */
   font-weight: bold;
   background: linear-gradient(transparent 60%, #ff6 60%);
 }
@@ -319,6 +337,7 @@ iframe {
   border: solid silver 1.5px;
   border-radius: 10px;
   /* background: gray; */
+  align-items: center;
 }
 @media (max-width: 800px) {
   .content-box  {
@@ -344,9 +363,7 @@ a .content-box:hover {
     margin: 8px 0;
   }
 }
-.date {
-  color: gray;
-}
+
 .content-list {
   margin: 16px 0;
   padding: 16px 16px;
